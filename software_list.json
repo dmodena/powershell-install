@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Git",
+    "path": "C:\\Temp\\Git",
+    "before_install": "git --version",
+    "install": [
+      "pushd C:\\Temp\\Git",
+      "git_installer.exe"
+    ]
+  },
+  {
+    "name": "Notepad++",
+    "path": "C:\\Temp\\Notepad++",
+    "before_install": "Test-Path 'C:\\Program Files\\Notepad++'",
+    "install":[
+      "pushd C:\\Program Files\\Notepad",
+      "notepad++.exe"
+    ]
+  }
+]
